@@ -105,7 +105,7 @@ def jandarma_ihbar():
 @app.route('/')
 def ana():
     return jsonify({
-        "message": "HASIM SYSTEM İHBAR API",
+        "message": "NABI SYSTEM İHBAR API",
         "örnek": "/jandarmaihbar?adres=Köy&yolu&mevkii&detay=Silah&sesleri&duyuluyor"
     })
 
